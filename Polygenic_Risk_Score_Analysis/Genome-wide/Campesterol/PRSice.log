@@ -1,0 +1,109 @@
+PRSice 2.3.4 (2020-09-01) 
+https://github.com/choishingwan/PRSice
+(C) 2016-2020 Shing Wan (Sam) Choi and Paul F. O'Reilly
+GNU General Public License v3
+If you use PRSice in any published work, please cite:
+Choi SW, O'Reilly PF.
+PRSice-2: Polygenic Risk Score Software for Biobank-Scale Data.
+GigaScience 8, no. 7 (July 1, 2019)
+2020-10-23 15:11:48
+../../bin/PRSice \
+    --a1 A1 \
+    --a2 A2 \
+    --bar-levels 0.001,0.05,0.1,0.2,0.3,0.4,0.5,1 \
+    --base ../base_data_freqQC.gz \
+    --beta  \
+    --binary-target F \
+    --bp position \
+    --chr chr \
+    --chr-id c:l-ab \
+    --clump-kb 250kb \
+    --clump-p 1.000000 \
+    --clump-r2 0.100000 \
+    --cov ../AETIO.covariates \
+    --cov-factor Sex,Smoking,Alcohol,Levodopa \
+    --interval 5e-05 \
+    --lower 5e-08 \
+    --num-auto 22 \
+    --out PRSice \
+    --perm 10000 \
+    --pheno ../Campesterol.csv \
+    --pvalue p \
+    --score avg \
+    --seed 3496306627 \
+    --stat BETA \
+    --target ../AETIO.QC \
+    --thread 1 \
+    --upper 0.5
+
+Initializing Genotype file: ../AETIO.QC (bed) 
+
+Start processing base_data_freqQC 
+================================================== 
+
+Base file: ../base_data_freqQC.gz 
+GZ file detected. Header of file is: 
+A1	A2	freq	BETA	se	p	chr	position 
+
+12081757 variant(s) observed in base file, with: 
+1947015 ambiguous variant(s) excluded 
+10134742 total variant(s) included from base file 
+
+Loading Genotype info from target 
+================================================== 
+
+103 people (0 male(s), 0 female(s)) observed 
+103 founder(s) included 
+
+Warning: Currently not support haploid chromosome and sex 
+         chromosomes 
+
+Error: Invalid chromosome number for SNP 
+
+7902840 variant(s) not found in previous data 
+33284 variant(s) included 
+
+Phenotype file: ../Campesterol.csv 
+Column Name of Sample ID: IID+FID 
+Note: If the phenotype file does not contain a header, the 
+column name will be displayed as the Sample ID which is 
+expected. 
+
+There are a total of 1 phenotype to process 
+
+Start performing clumping 
+
+Number of variant(s) after clumping : 6766 
+
+Processing the 1 th phenotype 
+
+"Campesterol is a continuous phenotype 
+103 sample(s) with valid phenotype 
+
+Processing the covariate file: ../AETIO.covariates 
+============================== 
+
+Include Covariates: 
+Name	Missing	Number of levels 
+Age	0	- 
+Smoking	0	3 
+Alcohol	0	6 
+Sex	0	2 
+Levodopa	0	2 
+PC1	0	- 
+PC2	0	- 
+PC3	0	- 
+PC4	0	- 
+PC5	0	- 
+PC6	0	- 
+PC7	0	- 
+PC8	0	- 
+PC9	0	- 
+PC10	0	- 
+
+After reading the covariate file, 103 sample(s) included in 
+the analysis 
+
+There are 1 region(s) with p-value between 0.1 and 1e-5 
+(may not be significant). 
+

@@ -1,0 +1,16 @@
+"","from","to","strength","direction"
+"58","Group_IPD","cholesterole",0.745,1
+"60","Group_IPD","Levodopa",0.977,1
+"65","Group_IPD","Mitophagy_subgraph",0.683,1
+"73","Group_IPD","MAPK_subgraph",0.611,1
+"103","Cytokine_signaling_subgraph","Mitophagy_subgraph",0.999,0.789789156626506
+"111","Cytokine_signaling_subgraph","MAPK_subgraph",0.981,0.982657700355731
+"128","Cholesterol_metabolism_subgraph","Vitamin_subgraph",0.546,0.605753222999125
+"133","Cholesterol_metabolism_subgraph","GenePy_Cadd_Genes_CAT",0.615,1
+"157","Mitophagy_subgraph","Autophagy_signaling_subgraph",1,0.7925
+"168","Mitophagy_subgraph","MAPK_subgraph",0.563,0.552040445166834
+"182","Calcium.dependent_signal_transduction","Interleukin_signaling_subgraph",0.554,0.5109328505228
+"247","Wnt_signaling_subgraph","GenePy_Cadd_Genes_CAT",0.726,1
+"285","Vitamin_subgraph","GenePy_Cadd_Genes_CAT",0.872,1
+"300","APOE_subgraph","Vitamin_subgraph",0.557,0.503277586056363
+"304","APOE_subgraph","GenePy_Cadd_Genes_CAT",0.999,1
