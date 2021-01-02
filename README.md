@@ -10,10 +10,10 @@ Campesterol,Sitostabol, Sitosterol and Stigmasterol. Also training stats, the Ba
     Summarized p-values of GenePy, Burden and SKAT-O based testing for all genes shown within a bar plots for each outcome.
 
 * #### Polygenic_Risk_Score_Analysis
-  * ##### Genome-wide  
-          Polygenic Risk Score stats and plots for all outcomes on genome-wide level including high resolution model fits for all p-values and model fit summary               stats (R-squared, nr. of snps included, empirical p-value etc.)
-  * ##### Mechanism-based Model 
-          Polygenic Risk Score stats and plots or all outcomes on mechanism-based level. Model fit summary stats equivalent to genome-wide level stats.
+  * Genome-wide  
+      Polygenic Risk Score stats and plots for all outcomes on genome-wide level including high resolution model fits for all p-values and model fit summary               stats (R-squared, nr. of snps included, empirical p-value etc.)
+  * Mechanism-based Model 
+       Polygenic Risk Score stats and plots or all outcomes on mechanism-based level. Model fit summary stats equivalent to genome-wide level stats.
 * #### Synthetic_Patients
   Results of the synthetic patients generation with VAMBN. 
   * HI-VAE
@@ -28,6 +28,5 @@ Campesterol,Sitostabol, Sitosterol and Stigmasterol. Also training stats, the Ba
     * GenePy Scores
   
   * Genotype Data
-    Decoded genotype matrices (=SNPs distributions) of two choosen mechanisms and their correlations coefficient distributions: Interleukin signaling- and Transport related subgraph.
-    Results shown for VAMBN and sim1000G based simulations. 
+    * Decoded genotype matrices (=SNPs distributions) of two choosen mechanisms and their correlations coefficient distributions: Interleukin signaling- and                Transport related subgraph. Results shown for VAMBN and sim1000G based simulations. Remaining subgraphs can be compiled by request.
     
