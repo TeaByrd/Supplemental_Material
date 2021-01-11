@@ -32,3 +32,9 @@ Campesterol,Sitostabol, Sitosterol and Stigmasterol and decoded features of the 
     * Decoded genotype matrices (=SNPs distributions) of two choosen mechanisms and their correlations coefficient distributions: Interleukin signaling- and                Transport related subgraph.
        Results shown for VAMBN and sim1000G based simulations. Remaining subgraphs can be uploaded by request.
     
+  * #### Testing_on_VirtualCohorts
+    * Results of all testing methods (PRS, GenePy, SKAT-O, Burden) except the standard approach for the virtual patient cohorts.
+        * 212 samples cohort
+        * 530 samples cohort
+        * 1060 samples cohort
+
