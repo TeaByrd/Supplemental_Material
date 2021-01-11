@@ -1,0 +1,9 @@
+,Variable,P-values
+0,PRS_MAPK_subgraph,0.5184259260111551
+1,PRS_Calcium-dependent_signal_transduction,0.34950347479411337
+2,PRS_Mitophagy_subgraph,0.7618699745011974
+3,PRS_Autophagy_signaling_subgraph,0.8008552604602884
+4,PRS_Wnt_signaling_subgraph,0.4517726773351042
+5,PRS_Transport_related_subgraph,0.9035116313275962
+6,PRS_Disaccharide_metabolism_subgraph,0.5228109931589762
+7,PRS_Cytokine_signaling_subgraph,0.1983414819885091
